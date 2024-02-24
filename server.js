@@ -16,8 +16,8 @@ app.get("/mckay", (req, res) => {
   res.send("Hello McKay");
 });
 
-app.get('/Max', (req,res) =>
-{res.send("Hello Max")
+app.get('/Max', (req,res) => {
+    res.send("Hello Max");
 });
 
 app.listen(port, () => console.log("Listening"));
