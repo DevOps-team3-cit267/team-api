@@ -16,11 +16,11 @@ app.get("/mckay", (req, res) => {
   res.send("Hello McKay");
 });
 
-app.get('/Max', (req, res) => {
+app.get("/Max", (req, res) => {
   res.send("Hello Max");
 });
 
-app.get('/Max', (req, res) => {
+app.get("/alberto", (req, res) => {
   res.send("Hello Alberto");
 });
 
